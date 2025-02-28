@@ -40,7 +40,7 @@ aside {
     background: #879678;
     padding: 10px;
     text-align: left;
-    max-width: 200;
+    max-width: 220;
     max-height:570;
 
 }
@@ -67,22 +67,9 @@ footer {
     background:#727D73;
     color: #F0F0D7;
     text-align: center;
-    padding: 8px;
+   
 }
 
-
-.project-gallery {
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-}
-
-.project-item {
-    flex: 1 1 200px;
-    background: white;
-    padding: 10px;
-    border-radius: 5px;
-}
 
 .profile-img {
     width: 150px;
@@ -93,3 +80,4 @@ footer {
     flex: auto;
     margin: 0; 
 }
+
