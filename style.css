@@ -8,6 +8,7 @@ body {
 }
 
 header {
+    flex: 1;
     background: #727D73;
     color: #F0F0D7;
     padding: 1rem;
@@ -73,6 +74,7 @@ footer {
 footer a {
     text-decoration: none; 
     color: #F0F0D7; 
+    flex: 1;
 }
 
 .project-gallery {
