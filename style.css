@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     flex-shrink: 1;
     min-height: 100vh;
-     min-width: 50vh;
+     min-width: 60vh;
     margin: 0;
     font-family: Arial, sans-serif;
 }
