@@ -70,6 +70,11 @@ footer {
    
 }
 
+footer a {
+    text-decoration: none; 
+    color: #F0F0D7; 
+
+}
 
 .profile-img {
     width: 150px;
