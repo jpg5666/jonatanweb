@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #b9b9b9;
+    font-family: Arial, sans-serif;
+}
+
+aside {
+    flex: 1;
+    background-color: #879767;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Keeps text content horizontally centered */
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Covers the area of the img without stretching */
+    max-width: 200px; /* Sets maximum width for responsive design */
+    margin: 0; /* Removes default margins affecting centering */
+}
+@media (max-width: 600px) {
+    .profile-img {
+        width: 80%; /* Changes width for smaller screens */
+        max-width: 150px; /* Adjust max-width if needed */
+    }
+}
+
+@media (min-width: 601px) {
+    .profile-img {
+        width: 50%; /* Revert to original width for larger screens */
+        max-width: 200px; 
+    }
+}
