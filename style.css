@@ -102,3 +102,19 @@ footer a {
 article {
     max-width: 200px;
 }
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    aside {
+        max-width: 100%;
+        border-radius: 8px;
+    }
+
+    section {
+        width: 100%;
+    }
+}
